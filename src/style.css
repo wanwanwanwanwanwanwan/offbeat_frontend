@@ -1,0 +1,85 @@
+.categoryTab {
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .categoryTab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: rgb(240, 141, 11);
+    background-color: #f1f1f1;
+  }
+
+  /* Change background color of buttons on hover */
+.categoryTab button:hover {
+  background-color: #ddd;
+}
+
+.tabSelected{
+ background-color: rgb(240, 141, 11) !important;
+ color: white !important;
+}
+
+.PromoCat img{
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.promotion {
+  width: 20%;
+  height: 300px;
+  float: left;
+  margin: 10px 4px 0 10px;
+  border: 1px solid rgb(233, 180, 4);
+
+
+}
+
+.promotionName{
+  text-align: center;
+  background-color: rgb(240, 141, 11);
+  color:white;
+  width: 100%;
+  height: 10%;
+}
+
+
+
+.promotionImg{
+  width: 100%;
+  height: 90%;
+  aspect-ratio: 4 / 3;
+}
+
+.promotionCat{
+  width: 100%;
+  height: 350px;
+  border: 5px solid rgb(240, 141, 11);
+}
+
+.promotionsMore{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+}
+
+
+
+.btnMore{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 141, 11);
+  color:white;
+}
